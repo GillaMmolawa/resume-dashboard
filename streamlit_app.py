@@ -39,7 +39,7 @@ def main():
                 avg_completion = data['Completion %'].mean()
                 col2.metric("Avg. Completion", f"{avg_completion:.1f}%")
             
-            # 2. Display the interactive table
+            # 2. Display the interactive git --version
             st.subheader("📄 Detailed Data View")
             st.dataframe(data, use_container_width=True)
             
